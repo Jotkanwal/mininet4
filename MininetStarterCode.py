@@ -34,9 +34,9 @@ class MyTopo(Topo):
         self.addLink( h8, s3 )
 
 
-        self.addLink( s1, s2, bw=100 )
-        self.addLink( s1, s4, bw=100 )
-        self.addLink( s2, s3, bw=100 )
+        self.addLink( s1, s2)
+        self.addLink( s1, s4)
+        self.addLink( s2, s3)
 
 
 
